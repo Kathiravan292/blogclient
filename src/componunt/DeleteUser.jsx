@@ -1,7 +1,7 @@
 import axios from 'axios'
 import  { useEffect, useState } from 'react'
 import { data, useNavigate, useParams } from 'react-router-dom'
-import { BASE_URL, TOKEN } from '../util/config'
+import { BASE_URL, TOKEN } from '../util/config' 
 
 
 const DeleteUser = () => {
