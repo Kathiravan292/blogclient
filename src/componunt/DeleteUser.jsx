@@ -20,7 +20,7 @@ const DeleteUser = () => {
         authorization: `Bearer ${TOKEN}`
       }
     })
-    setMessage(data)
+    setMessage(data) 
 
     setTimeout(()=>{
       navigate("/users")
