@@ -5,7 +5,7 @@ import { useNavigate } from 'react-router-dom';
 const Creatblog = () => { 
   const navigate = useNavigate();  
   const [useblog, setuseblog] = useState({ 
-    title: '',
+    title: '', 
     topic: '',
     content: '',
     image: ''
