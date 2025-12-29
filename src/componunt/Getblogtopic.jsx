@@ -3,7 +3,7 @@ import { useParams, useNavigate } from "react-router-dom";
 import { BASE_URL } from "../util/config";
 import { AuthC } from "../Context/Authcontext";
 
-const Getblogtopic = () => { 
+const Getblogtopic = () => {  
   const { topic } = useParams();  
   const { user } = useContext(AuthC)
   const navigate = useNavigate();
