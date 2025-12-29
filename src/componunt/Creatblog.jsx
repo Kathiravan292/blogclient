@@ -3,7 +3,7 @@ import { BASE_URL } from '../util/config';
 import { useNavigate } from 'react-router-dom';
 
 const Creatblog = () => {
-  const navigate = useNavigate(); 
+  const navigate = useNavigate();  
   const [useblog, setuseblog] = useState({ 
     title: '',
     topic: '',
