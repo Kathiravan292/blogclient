@@ -10,7 +10,7 @@ const Creatblog = () => {
     content: '',
     image: ''
   });
-  const [loading, setLoading] = useState(false);
+  const [loading, setLoading] = useState(false); 
 
   const handlechange = (e) => {
     const { id, value } = e.target;
