@@ -4,7 +4,7 @@ import { BASE_URL } from "../util/config";
 import { AuthC } from "../Context/Authcontext";
 
 const Getblogtopic = () => {
-  const { topic } = useParams();
+  const { topic } = useParams(); 
   const { user } = useContext(AuthC)
   const navigate = useNavigate();
  
