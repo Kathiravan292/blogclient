@@ -7,7 +7,7 @@ import { BASE_URL, TOKEN } from '../util/config'
 const DeleteUser = () => { 
   const {id} = useParams()  
   const [message, setMessage] = useState({}) 
-  const navigate = useNavigate()
+  const navigate = useNavigate() 
 
   useEffect(()=>{
     deleteUser()
